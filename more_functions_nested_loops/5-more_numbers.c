@@ -11,7 +11,7 @@ void print_most_numbers(void)
 
 	for (i = 0; i <= 14; i++)
 	{
-                printf("%d - %s\n", i+1, name);
+                _putchar("%d - %s\n", i+1, name);
         }
 
         return 0;
