@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * swap_int - swap to int to 42
+ * @a : number
+ * @b : number
+ * 
  * Return: Always 0.
  */
 
