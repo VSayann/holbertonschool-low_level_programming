@@ -26,8 +26,7 @@ void rev_string(char *s)
         }
 
         putchar('\n');
-}
-{
+
         while (*str != '\0')
         {
                 putchar(*str);
