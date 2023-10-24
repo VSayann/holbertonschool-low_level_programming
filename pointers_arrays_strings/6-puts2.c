@@ -8,7 +8,7 @@
 
 void _puts2(char *str)
 {
-for (str = 0; str < sSize_t; ++str)
+for (str = 0; str < ssize_t; ++str)
 	{
 		putchar(*str);
 	}
