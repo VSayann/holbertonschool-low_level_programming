@@ -6,10 +6,10 @@
  *
  */
 
-void puts2(char *str)
+void _puts2(char *str)
 {
-for (str = 0; str < sSize / 2; ++str)
+for (str = 0; str < sSize; ++str)
 	{
-		putchar(*str)
+		putchar(*str);
 	}
 }
