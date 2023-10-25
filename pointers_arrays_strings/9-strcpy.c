@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * @_strcpy : copies the string pointed to
+ * _strcpy - copies the string pointed to
  * @dest : string
  * @src : string
+ * @_strcpy : function
  */
 
 char *_strcpy(char *dest, char *src)
