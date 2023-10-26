@@ -5,6 +5,8 @@
  * _strncat - concatenates two strings
  * @dest : string 1
  * @src : string 2
+ *
+ * Return : to the pointer
  */
 
 char *_strncat(char *dest, char *src, int n)
