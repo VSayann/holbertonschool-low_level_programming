@@ -16,8 +16,7 @@ void init_dog(struct dog *myDog, const char *name, float age, const char *owner)
 {
 if (myDog == NULL)
 {
-fprintf(stderr, "Error: NULL pointer passed to init_dog\n");
-return;
+return 0;
 }
 myDog->name = strdup(name);
 myDog->age = age;
