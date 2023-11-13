@@ -14,17 +14,15 @@
 
 void init_dog(struct dog *myDog, const char *name, float age, const char *owner)
 {
-if (myDog == NULL)
-{
-return {0};
-}
-myDog->name = strdup(name);
-myDog->age = age;
-myDog->owner = strdup(owner);
+    if (myDog == NULL)
+        myDog = malloc(sizeof(strcut dog))
+    myDog->name = strdup(name);
+    myDog->age = age;
+    myDog->owner = strdup(owner);
 }
 
-void free_dog(struct dog *myDog)
+    void free_dog(struct dog *myDog)
 {
-free(myDog->name);
-free(myDog->owner);
+    free(myDog->name);
+    free(myDog->owner);
 }
