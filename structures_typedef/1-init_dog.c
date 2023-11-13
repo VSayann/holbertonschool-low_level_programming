@@ -15,7 +15,7 @@
 void init_dog(struct dog *myDog, const char *name, float age, const char *owner)
 {
     if (myDog == NULL)
-        myDog = malloc(sizeof(strcut dog))
+        myDog = malloc(sizeof(struct dog));
     myDog->name = strdup(name);
     myDog->age = age;
     myDog->owner = strdup(owner);
