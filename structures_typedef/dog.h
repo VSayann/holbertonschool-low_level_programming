@@ -3,7 +3,9 @@
 
 /**
 * struct dog - new type
+*
 */
+
 struct dog
 {
 char *name;
