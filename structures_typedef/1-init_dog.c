@@ -1,6 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
 void init_dog(struct dog *myDog, const char *name, float age, const char *owner)
 {
