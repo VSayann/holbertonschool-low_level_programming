@@ -9,7 +9,6 @@
 * @owner: pointer
 * @name: pointer
 * @age: pointer
-* @free_dog: freeing the memory
 * Return: void
 *
 */
