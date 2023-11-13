@@ -15,6 +15,8 @@ float age;
 char *owner;
 };
 
+typedef struct dog dog_t;
+
 void init_dog(struct dog *myDog, const char *name, float age, const char *owner);
 void print_dog(struct dog *d);
 
